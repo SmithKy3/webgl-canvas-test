@@ -5,7 +5,7 @@ const htmlPlugin = new HtmlWebpackPlugin({
 });
 
 module.exports = {
-  entry: './scripts/index.js',
+  entry: './scripts/ks-renderer.js',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
